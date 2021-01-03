@@ -2,9 +2,10 @@ import React from 'react';
 import './App.css'
 import styled from 'styled-components'
 import Button from './Button';
+import LocalGroceryStoreIcon from '@material-ui/icons/LocalGroceryStore';
 
 const Heading=styled.h3`
-margin:100px;
+margin:100px 0 30px 0;
 width:93px;
 height:36px;
 font-family: 'Poppins', sans-serif;
@@ -66,11 +67,11 @@ function App() {
         <Flex>
           <RightSpace>
             <Title>{'<Button startIcon=local_grocery_store />'}</Title>
-            <Button icon="start">Default</Button>
+            <Button icon="start"><LocalGroceryStoreIcon id="m-icon" />Default</Button>
           </RightSpace>
           <RightSpace>
             <Title>{'<Button endIcon=local_grocery_store />'}</Title>
-            <Button icon="end">Default</Button>
+            <Button icon="end">Default <LocalGroceryStoreIcon id="m-icon" /></Button>
           </RightSpace>
         </Flex>
       </Row>

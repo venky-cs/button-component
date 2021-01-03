@@ -100,6 +100,17 @@ ${props => {
     }
     return null;
 }}
+
+${props => {
+    if (props.icon === 'start'){
+        return `
+        &:hover{
+            display:flex;
+            flex-direction:row-reverse;
+            align-items:center;
+        }`
+    }
+}}
 `;
 
 
