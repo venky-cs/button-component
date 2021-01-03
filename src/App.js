@@ -7,7 +7,7 @@ const Heading=styled.h3`
 margin:100px;
 width:93px;
 height:36px;
-font-family:poppins;
+font-family: 'Poppins', sans-serif;
 font-size:24px;
 line-height:36px;
 `;
@@ -23,8 +23,7 @@ const RightSpace = styled.div`
 margin-right:50px;`
 
 const Title=styled.p`
-font-family:Ubuntu Mono;
-font-weight:400;
+font-family: 'Ubuntu Mono', monospace;
 font-size:12px;
 line-height:12px;
 `;

@@ -8,6 +8,8 @@ padding:8px 20px;
 border-radius:12px;
 border:none;
 cursor:pointer;
+font-family: 'Noto Sans JP', sans-serif;
+font-size:14px;
 
 
 ${props => {
