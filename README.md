@@ -10,7 +10,7 @@
   
     
   <h3>
-    <a href="https://venky-cs.github.io/button-component/"> <!-- palitan mo to  -->
+    <a href="https://venky-cs-button-component.netlify.app/"> <!-- palitan mo to  -->
       Demo
     </a>
     <span> | </span>
