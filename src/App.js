@@ -69,10 +69,6 @@ function App() {
             <Title>{'<Button startIcon=local_grocery_store />'}</Title>
             <Button icon="start"><LocalGroceryStoreIcon id="m-icon" />Default</Button>
           </RightSpace>
-          <RightSpace>
-            <Title>{'<Button endIcon=local_grocery_store />'}</Title>
-            <Button icon="end">Default <LocalGroceryStoreIcon id="m-icon" /></Button>
-          </RightSpace>
         </Flex>
       </Row>
       <br/>
@@ -116,6 +112,11 @@ function App() {
         </Flex>
       </Row>
       <br/>
+
+
+      <footer>
+        <p>venky-cs @ DevChallengers.io</p>
+      </footer>
 
     </div>
   );

@@ -12,8 +12,12 @@
 }
 
 #m-icon{
-  color: red;
+  color: white;
   font-size: 15px;
   margin: 0 5px;
+}
 
+footer p{
+  padding: 25px;
+  text-align: center;
 }

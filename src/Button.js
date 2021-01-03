@@ -101,9 +101,12 @@ ${props => {
     return null;
 }}
 
+
 ${props => {
     if (props.icon === 'start'){
         return `
+        background-color:rgba(17, 17, 158, 0.877);
+        color:white;
         &:hover{
             display:flex;
             flex-direction:row-reverse;
