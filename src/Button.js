@@ -49,6 +49,7 @@ ${props => {
         border:none;
         background-color: rgba(204, 198, 198, 0.568);
         color:rgba(39, 38, 38, 0.507);
+        pointer-events:none;
 
         &:hover {
             color: rgba(224, 198, 198, 0.568);
