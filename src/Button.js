@@ -70,8 +70,11 @@ ${props => {
 
         case "lg":
             return 'font-size:20px;background-color:rgba(17, 17, 158, 0.877);color:white;';
+
+        default:
+            return null
     }
-    return null
+    // return null
 }}
 
 
@@ -98,8 +101,9 @@ ${props => {
             &:hover{
                 background-color:red;
             }`;
+        default:
+            return null;
     }
-    return null;
 }}
 
 
